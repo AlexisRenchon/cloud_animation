@@ -26,7 +26,7 @@ var_data = @lift($var_time.data)
 limits = (0, 0.04)
 
 p = surface!(ax, lon, lat, var_data,
-             zlevel = 500_000,
+             zlevel = 300_000,
              colorrange = limits,
              colormap = Reverse(:PuBu),
              shading = NoShading,
@@ -42,5 +42,5 @@ record(fig, "animation.mp4", 1:total_frames; framerate = 20, compression = 10) d
         zoom!(ax.scene, 0.6)
     end
     time[] = t
-    rotate_cam!(ax.scene, 0, 0.01, 0)
+    rotate_cam!(ax.scene, 0, -0.015, 0)
 end
