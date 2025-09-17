@@ -1,1 +1,3 @@
-![animation (1)](https://github.com/user-attachments/assets/835d0c82-9270-4d93-9e45-a2d2209af634)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fe890f0d-9f99-41f5-81b5-f9536905ce0f" alt="animation (1)">
+</p>
